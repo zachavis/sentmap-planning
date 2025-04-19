@@ -1,0 +1,93 @@
+{
+    "node_1": {
+      "location": "office",
+      "name": "table",
+      "objects": [
+        { "name": "book" },
+        { "name": "tissue box" }
+      ],
+      "allowed_actions": ["goto_node","pick","place"],
+      "people": ["karthik"]
+    },
+    "node_2": {
+      "location": "office",
+      "name": "tray",
+      "objects": [
+        { "name": "kettle" },
+        { "name": "coffee can" },
+        { "name": "hand sanitizer" }
+      ],
+      "allowed_actions": ["goto_node","pick","place"]
+    },
+    "node_3": {
+      "location": "lounge",
+      "name": "table",
+      "objects": [
+        { "name": "backpack" },
+        { "name": "laptop",
+          "owner": "raj" },
+        { "name": "smartphone" }
+      ],
+      "allowed_actions": ["goto_node","pick","place"]
+    },
+    "node_4": {
+      "location": "lounge",
+      "name": "table",
+      "objects": [
+        { "name": "tablet computer" }
+      ],
+      "allowed_actions": ["goto_node","pick","place"],
+      "people": ["raj"]
+    },
+    "node_5": {
+      "location": "lounge",
+      "name": "table",
+      "objects": [
+        { "name": "remote control" },
+        { "name": "notebook" },
+        { "name": "headphones" }
+      ],
+      "allowed_actions": ["goto_node","pick","place"]
+    },
+    "node_6": {
+      "location": "kitchen",
+      "name": "desk",
+      "objects": [
+        { "name": "water bottle",
+          "owner": "raj" },
+        { "name": "soda can" },
+        { "name": "dirty dishes" }
+      ],
+      "allowed_actions": ["goto_node","pick","place"]
+    },
+    "node_7": {
+      "location": "kitchen",
+      "name": "refrigerator",
+      "objects": [
+        { "name": "coffee creamer" },
+        { "name": "tupperware" },
+        { "name": "margarine" }
+      ],
+      "allowed_actions": ["goto_node","pick","place","open"]
+    },
+    "node_8": {
+      "location": "kitchen",
+      "name": "drawer",
+      "objects": [
+        { "name": "cutlery" }
+      ],
+      "allowed_actions": ["goto_node","pick","place","open"]
+    },
+    "node_9": {
+      "location": "kitchen",
+      "name": "sink",
+      "objects": [
+        { "name": "soap" },
+        { "name": "sponge" },
+        { "name": "towel" },
+        { "name": "drying rack" }
+      ],
+      "allowed_actions": ["goto_node","pick","place"]
+    }
+}
+  

@@ -1,0 +1,3 @@
+# desiredModel='llama3.1:8b-instruct-fp16'
+    # desiredModel='deepseek-r1:7b'
+    desiredModel='gemma2:9b'

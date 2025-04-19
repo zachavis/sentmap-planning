@@ -1,0 +1,12 @@
+skill_name: goto_node
+arguments: node_id
+description: The robot navigates to the node with given id
+skill_name: pick_object
+arguments: object_name
+description: The robot uses its gripper to grasp and hold the given object
+skill_name: place_object
+arguments: object_name
+description: The robot places its held object at its current node
+skill_name: open
+arguments: None
+description: The robot opens the node
