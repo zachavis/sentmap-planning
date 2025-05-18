@@ -1,6 +1,10 @@
 # SENT-Map Planning
 
-This is code supporting "SENT-Map: Semantically Enhanced Topological Maps with Foundation Models," presented at the [ICRA'25 Workshop on Foundation Models and Neuro-Symbolic AI for Robotics](https://sairlab.org/icra25/)
+This is code supporting "SENT-Map: Semantically Enhanced Topological Maps with Foundation Models," presented at the ICRA'25 Workshop on Foundation Models and Neuro-Symbolic AI for Robotics.
+
+[Project Site](https://rpm-lab-umn.github.io/SENT_map/)
+
+[Workshop Site](https://sairlab.org/icra25/)
 
 ## Install
 To run local planning, first [install and run ollama](https://github.com/ollama/ollama).
