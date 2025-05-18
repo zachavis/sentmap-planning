@@ -1,0 +1,33 @@
+python plan.py "Bring the coffee can to the kitchen"
+python plan.py "Bring the sponge to the office"
+python plan.py "Bring the tissue box to the lounge"
+
+
+python plan.py "Grab the remote"
+python plan.py "Grab me something to help me watch my favorite TV show."
+
+python plan.py "Grab a tissue."
+python plan.py "I have a cold and I'm feeling a bit sniffly, grab me something to help."
+
+python plan.py "Grab the headphones."
+python plan.py "I need to listen to my music quietly while my classmates study. Grab something to help."
+
+python plan.py "Grab the the sanitizer."
+python plan.py "Grab something to help me not get sick."
+
+python plan.py "Grab the cell phone."
+python plan.py "I need something to call a friend. Grab something to help."
+
+python plan.py "Grab the creamer."
+python plan.py "I made a cup of black coffee, can you grab something to add to the flavor?"
+
+
+
+python plan.py "Bob has leftovers. Bring him the tupperware"
+python plan.py "Bring bob something to store his leftovers"
+
+python plan.py "Bring bob his water bottle"
+python plan.py "Bring bob his drink"
+
+python plan.py "Bring Alice the water bottle, then bring Alice the smartphone"
+python plan.py "Bring Alice all of Bob's things"

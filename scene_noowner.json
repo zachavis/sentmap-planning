@@ -25,7 +25,7 @@
       "objects": [
         { "name": "backpack" },
         { "name": "laptop"},
-        { "owner": "bob", "name": "smartphone" }
+        { "name": "smartphone" }
       ],
       "actions": ["goto_node", "pick", "place"]
     },
@@ -52,7 +52,7 @@
       "location": "kitchen",
       "name": "desk",
       "objects": [
-        { "owner": "bob", "name": "water bottle"},
+        { "name": "water bottle"},
         { "name": "soda can" },
         { "name": "dirty dishes" }
       ],

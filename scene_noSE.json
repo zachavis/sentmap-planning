@@ -1,0 +1,39 @@
+{
+    "node_1": {
+      "location": "office",
+      "name": "table"
+    },
+    "node_2": {
+      "location": "office",
+      "name": "tray"
+    },
+    "node_3": {
+      "location": "lounge",
+      "name": "table"
+    },
+    "node_4": {
+      "location": "lounge",
+      "name": "table"
+    },
+    "node_5": {
+      "location": "lounge",
+      "name": "table"
+    },
+    "node_6": {
+      "location": "kitchen",
+      "name": "desk"
+    },
+    "node_7": {
+      "location": "kitchen",
+      "name": "refrigerator"
+    },
+    "node_8": {
+      "location": "kitchen",
+      "name": "drawer"
+    },
+    "node_9": {
+      "location": "kitchen",
+      "name": "sink"
+    }
+}
+  

@@ -1,3 +1,0 @@
-Instruction: for each query, use the JSON file and return the node id, which is a number present at the start of every node that best indicates the object the user is looking for so that a robot can go and perform the required action. Strictly return only the node id.
-<SCENE_JSON>
-<USER_QUERY>

@@ -1,5 +1,7 @@
 # SENT-Map Planning
 
+This is code supporting "SENT-Map: Semantically Enhanced Topological Maps with Foundation Models," presented at the [ICRA'25 Workshop on Foundation Models and Neuro-Symbolic AI for Robotics](https://sairlab.org/icra25/)
+
 ## Install
 To run local planning, first [install and run ollama](https://github.com/ollama/ollama).
 
@@ -7,27 +9,14 @@ Then, install the python module in your desired environment
 ```
 pip install ollama
 ```
-and download your desired model, for example gemma2:9b
+and download your desired model, for example gemma3:27b
 ```
-ollama run gemma2:9b
-```
-
-## Run single-file planning
-For rapid development, a single-file allows quick iteration:
-```
-python plan_dev.py
-```
-or with json-verified planning:
-```
-python plan_dev_json.py
+ollama run gemma3:27b
 ```
 
-## Run multi-file planning:
-Track your prompts, scenes, and skill APIs as files:
+## Planning
+Once gemma3:27b (or desired FM) is downloaded, you can plan with:
 ```
-python plan.py --prompt prompt.txt --model gemma2:9b --api api.txt --scene scene.json --verbose --query "get me a fork. Place picked items with me at node 2."
+python plan.py "<USER QUERY>"
 ```
-or equivalently, assuming default file names:
-```
-python plan.py -q "get me a fork. Place picked items with me at node 2." -a api.txt -m gemma2:9b -v
-```
+To change the scene json, or planning FM, edit `plan.py`.
